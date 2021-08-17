@@ -1,0 +1,14 @@
+body{
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0,0, 0.63);
+}
+
+main{
+    background-color: rgba(93, 136, 216, 0.63);
+    width:100vw;
+    height:100vh;
+}
