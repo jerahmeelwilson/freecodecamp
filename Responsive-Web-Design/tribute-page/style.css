@@ -1,0 +1,87 @@
+html{
+    font-size: 0.8em;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a2d6f9;
+}
+
+#title{
+    font-size: 4em; 
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+#description{
+    margin-bottom: 1em;
+    text-align:center;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #edf2fb;
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#image{
+    width: 80vw;
+    margin-top: 2em;
+    margin-bottom:1em;
+    border-radius: 10px;
+}
+#img-caption{
+    margin-bottom: 1em;
+    text-align: center;
+}
+#tribute-info{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#tribute-info h2{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#tribute-info li{
+    list-style-type: circle;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+span{
+    font-weight: bold;
+}
+
+#quote{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+h3{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+@media only screen and (min-width: 768px) {
+    #tribute-info{
+        width: 30%;
+    }
+    #image{
+        width: 50%;
+    }
+  }
