@@ -13,7 +13,7 @@
 <body>
     <main>
         <h1 id="title">Developer Survey</h1>
-        <p>Thank you for taking the time to complete this survey</p>
+        <p id="description">Thank you for taking the time to complete this survey</p>
         <form action="" id="survey-form">
             <div class="fullinput">
                 <label id="name-label" for="name">Name</label>
@@ -99,12 +99,14 @@
                     <label for="scala">Scala</label>
                 </div>
             </fieldset>
-            <div>
+            <div class="comment">
                 <label for="comments">Do you have any tips for new developers?</label>
                 <textarea id="comments" name="comments" rows="4" cols="50">Enter your tips here...
                 </textarea>
             </div>
-            <button type="sumbit">Submit</button>
+            <div class="submitbutton">
+                <button id="submit" type="sumbit">Submit</button>
+            </div>
         </form>
     </main>
 </body>

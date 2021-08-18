@@ -20,9 +20,10 @@ main{
 }
 
 form{
-    background-color: rgba(0, 0,0, 0.63);
+    background-color: rgba(9, 11, 49, 0.794);
     width:100%;
 }
+
 #name-label,#email-label,#number-label{
     display:block;
 }
@@ -44,5 +45,35 @@ form{
 
 .radio div{
     margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+fieldset{
+    margin: 1em;
+}
+
+fieldset div{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.comment{
+    display:flex;
+    flex-direction: column;
+    margin: 1em;
+}
+textarea{
+    margin-top: 0.5em;
+    width: 90%;
+}
+.submitbutton{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    width: 90%;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     margin-bottom: 1em;
 }
