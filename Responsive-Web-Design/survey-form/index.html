@@ -12,7 +12,100 @@
 
 <body>
     <main>
-
+        <h1 id="title">Developer Survey</h1>
+        <p>Thank you for taking the time to complete this survey</p>
+        <form action="" id="survey-form">
+            <div class="fullinput">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="fullinput">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your Email">
+            </div>
+            <div class="fullinput">
+                <label id="number-label" for="number">How many years of experience do you have?</label>
+                <input type="number" id="number" min="0" max="100" placeholder="Years">
+            </div>
+            <div class="radio">
+                <p>What type of software developer are you?</p>
+                <div>
+                    <input type="radio" id="frontend" name="devtype" value="frontend" checked>
+                    <label for="frontend">Frontend</label>
+                </div>
+                <div>
+                    <input type="radio" id="backend" name="devtype" value="backend" checked>
+                    <label for="backend">Backend</label>
+                </div>
+                <div>
+                    <input type="radio" id="fullstack" name="devtype" value="fullstack" checked>
+                    <label for="fullstack">Fullstack</label>
+                </div>
+            </div>
+            <div class="fullinput">
+                <label for="cars">Where did you learn how to program?</label>
+                <div>
+                    <select name="taught" id="dropdown">
+                        <option value="school">At a college or university</option>
+                        <option value="bootcamp">At a coding bootcamp</option>
+                        <option value="selftaught">I am self taught</option>
+                    </select>
+                </div>
+            </div>
+            <fieldset>
+                <legend>What programming languages do you know to use?</legend>
+                <div>
+                    <input type="checkbox" id="java" name="language" value="java">
+                    <label for="java">Java</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="javascript" name="language" value="javascript">
+                    <label for="javascript">Javascript</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="typescript" name="language" value="typescript">
+                    <label for="typescript">Typescript</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="python" name="language" value="python">
+                    <label for="python">Python</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="ruby" name="language" value="ruby">
+                    <label for="ruby">Ruby</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="C" name="language" value="C">
+                    <label for="C">C</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="C++" name="language" value="C++">
+                    <label for="C++">C++</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="C#" name="language" value="C#">
+                    <label for="C#">C#</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="go" name="language" value="go">
+                    <label for="go">Go</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="swift" name="language" value="swift">
+                    <label for="swift">Swift</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="scala" name="language" value="scala">
+                    <label for="scala">Scala</label>
+                </div>
+            </fieldset>
+            <div>
+                <label for="comments">Do you have any tips for new developers?</label>
+                <textarea id="comments" name="comments" rows="4" cols="50">Enter your tips here...
+                </textarea>
+            </div>
+            <button type="sumbit">Submit</button>
+        </form>
     </main>
 </body>
 
